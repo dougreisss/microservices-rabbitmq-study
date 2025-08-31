@@ -4,8 +4,8 @@
     {
         Task<List<Model.Product>> GetAll();
         Task<Model.Product> GetById(int id);
-        Task Create(Model.Product client);
-        Task Update(Model.Product client);
-        Task Delete(Model.Product client);
+        Task Create(Model.Product product);
+        Task Update(Model.Product product);
+        Task Delete(Model.Product product);
     }
 }

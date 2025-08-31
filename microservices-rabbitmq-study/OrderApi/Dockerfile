@@ -12,19 +12,19 @@ EXPOSE 8081
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["OrderApi/OrderApi.csproj", "OrderApi/"]
-RUN dotnet restore "./OrderApi/OrderApi.csproj"
+COPY ["OrderApi/Order.WebApi.csproj", "OrderApi/"]
+RUN dotnet restore "./OrderApi/Order.WebApi.csproj"
 COPY . .
 WORKDIR "/src/OrderApi"
-RUN dotnet build "./OrderApi.csproj" -c $BUILD_CONFIGURATION -o /app/build
+RUN dotnet build "./Order.WebApi.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 # Esta fase é usada para publicar o projeto de serviço a ser copiado para a fase final
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./OrderApi.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "./Order.WebApi.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
 # Esta fase é usada na produção ou quando executada no VS no modo normal (padrão quando não está usando a configuração de Depuração)
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "OrderApi.dll"]
+ENTRYPOINT ["dotnet", "Order.WebApi.dll"]

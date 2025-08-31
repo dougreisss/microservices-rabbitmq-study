@@ -20,21 +20,21 @@ namespace Product.WebApi.Repository
         {
             return await _dbContext.Product.FirstOrDefaultAsync(x => x.Id == id);
         }
-        public async Task Create(Model.Product Product)
+        public async Task Create(Model.Product product)
         {
-            await _dbContext.Product.AddAsync(Product);
+            await _dbContext.Product.AddAsync(product);
             await _dbContext.SaveChangesAsync();
         }
 
-        public async Task Update(Model.Product Product)
+        public async Task Update(Model.Product product)
         {
-            _dbContext.Product.Update(Product);
+            _dbContext.Product.Update(product);
             await _dbContext.SaveChangesAsync();
         }
 
-        public async Task Delete(Model.Product Product)
+        public async Task Delete(Model.Product product)
         {
-            _dbContext.Product.Remove(Product);
+            _dbContext.Product.Remove(product);
             await _dbContext.SaveChangesAsync();
         }
     }

@@ -27,6 +27,19 @@ services:
             - ConnectionStrings:ProductDb=Server=db;Database=product.db;User=sa;Password=root@1234;Encrypt=False;
         depends_on:
             - db
+    order.api:
+        container_name: order.api
+        build:
+            context: .
+            dockerfile: OrderAPI/Dockerfile
+        ports:
+            - "8082:80"
+        environment:
+            - ASPNETCORE_ENVIRONMENT=Development
+            - ASPNETCORE_URLS=http://+:80
+            - ConnectionStrings:ProductDb=Server=db;Database=order.db;User=sa;Password=root@1234;Encrypt=False;
+        depends_on:
+            - db
     db:
         container_name: db
         image: mcr.microsoft.com/mssql/server:2022-latest
