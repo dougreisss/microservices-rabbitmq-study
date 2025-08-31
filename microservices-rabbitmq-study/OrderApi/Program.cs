@@ -2,6 +2,9 @@ using Microsoft.EntityFrameworkCore;
 using Order.WebApi.Context;
 using Order.WebApi.Repository;
 using Order.WebApi.Repository.Interfaces;
+using Order.WebApi.Services.Interface;
+using Order.WebApi.Services;
+using Order.WebApi.Model;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +22,13 @@ builder.Services.AddDbContext<SqlContext>(options => options.UseSqlServer(
 
 // repository
 builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+
+// services 
+builder.Services.AddScoped<IOrderSenderService, OrderSenderService>();
+
+// rabbitmq config
+
+builder.Services.Configure<OrderSenderConfig>(builder.Configuration.GetSection("OrderSenderConfig"));
 
 var app = builder.Build();
 

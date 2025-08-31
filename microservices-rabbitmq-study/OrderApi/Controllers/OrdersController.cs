@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Order.WebApi.Repository.Interfaces;
+using Order.WebApi.Services.Interface;
 
 namespace Order.WebApi.Controllers
 {
@@ -10,9 +11,11 @@ namespace Order.WebApi.Controllers
     {
 
         private readonly IOrderRepository _productRepository;
-        public OrdersController(IOrderRepository productRepository)
+        private readonly IOrderSenderService _orderSenderService;
+        public OrdersController(IOrderRepository productRepository, IOrderSenderService orderSenderService)
         {
             _productRepository = productRepository;
+            _orderSenderService = orderSenderService;
         }
 
         [HttpGet]
@@ -61,6 +64,8 @@ namespace Order.WebApi.Controllers
                 }
 
                 await _productRepository.Create(Order);
+
+                await _orderSenderService.OrderSender(Order);
 
                 return Created("", Order);
             }

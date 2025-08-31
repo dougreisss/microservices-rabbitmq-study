@@ -23,7 +23,7 @@ services:
             - "8081:80"
         environment:
             - ASPNETCORE_ENVIRONMENT=Development
-            - ASPNETCORE_URLS=http://+:80
+            - ASPNETCORE_URLS=http://+:80'
             - ConnectionStrings:ProductDb=Server=db;Database=product.db;User=sa;Password=root@1234;Encrypt=False;
         depends_on:
             - db
@@ -37,9 +37,10 @@ services:
         environment:
             - ASPNETCORE_ENVIRONMENT=Development
             - ASPNETCORE_URLS=http://+:80
-            - ConnectionStrings:ProductDb=Server=db;Database=order.db;User=sa;Password=root@1234;Encrypt=False;
+            - ConnectionStrings:OrderDb=Server=db;Database=order.db;User=sa;Password=root@1234;Encrypt=False;
         depends_on:
             - db
+            - rabbiqmq
     db:
         container_name: db
         image: mcr.microsoft.com/mssql/server:2022-latest
@@ -50,6 +51,12 @@ services:
             - "1433:1433"
         volumes:
             - sqlserverdata:/var/opt/mssql
+
+    rabbiqmq:
+        image: rabbitmq:3-management
+        ports:
+            - "5672:5672"
+            - "15672:15672"
 
 volumes:
     sqlserverdata:
