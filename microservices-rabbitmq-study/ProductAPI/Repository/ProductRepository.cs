@@ -1,0 +1,41 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Product.WebApi.Context;
+using Product.WebApi.Repository.Interface;
+
+namespace Product.WebApi.Repository
+{
+    public class ProductRepository : IProductRepository
+    {
+        private readonly SqlContext _dbContext;
+        public ProductRepository(SqlContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
+
+        public async Task<List<Model.Product>> GetAll()
+        {
+            return await _dbContext.Product.AsNoTracking().ToListAsync();
+        }
+        public async Task<Model.Product> GetById(int id)
+        {
+            return await _dbContext.Product.FirstOrDefaultAsync(x => x.Id == id);
+        }
+        public async Task Create(Model.Product Product)
+        {
+            await _dbContext.Product.AddAsync(Product);
+            await _dbContext.SaveChangesAsync();
+        }
+
+        public async Task Update(Model.Product Product)
+        {
+            _dbContext.Product.Update(Product);
+            await _dbContext.SaveChangesAsync();
+        }
+
+        public async Task Delete(Model.Product Product)
+        {
+            _dbContext.Product.Remove(Product);
+            await _dbContext.SaveChangesAsync();
+        }
+    }
+}

@@ -14,6 +14,19 @@ services:
             - ConnectionStrings:ClientDb=Server=db;Database=client.db;User=sa;Password=root@1234;Encrypt=False;
         depends_on:
             - db
+    product.api:
+        container_name: product.api
+        build:
+            context: .
+            dockerfile: ProductAPI/Dockerfile
+        ports:
+            - "8081:80"
+        environment:
+            - ASPNETCORE_ENVIRONMENT=Development
+            - ASPNETCORE_URLS=http://+:80
+            - ConnectionStrings:ProductDb=Server=db;Database=product.db;User=sa;Password=root@1234;Encrypt=False;
+        depends_on:
+            - db
     db:
         container_name: db
         image: mcr.microsoft.com/mssql/server:2022-latest

@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FBD64403-56E9-42A8-B2BF-2AE35D202ED5}|ClientAPI\\Client.WebApi.csproj|f:\\douglas\\estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\clientapi\\repository\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBD64403-56E9-42A8-B2BF-2AE35D202ED5}|ClientAPI\\Client.WebApi.csproj|solutionrelative:clientapi\\repository\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBD64403-56E9-42A8-B2BF-2AE35D202ED5}|ClientAPI\\Client.WebApi.csproj|f:\\douglas\\estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\clientapi\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBD64403-56E9-42A8-B2BF-2AE35D202ED5}|ClientAPI\\Client.WebApi.csproj|solutionrelative:clientapi\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFDCAA22-3386-4BE4-8B94-D037AFE892E3}|ProductAPI\\Product.WebApi.csproj|f:\\douglas\\estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\productapi\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDCAA22-3386-4BE4-8B94-D037AFE892E3}|ProductAPI\\Product.WebApi.csproj|solutionrelative:productapi\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBD64403-56E9-42A8-B2BF-2AE35D202ED5}|ClientAPI\\Client.WebApi.csproj|f:\\douglas\\estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\clientapi\\repository\\interface\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBD64403-56E9-42A8-B2BF-2AE35D202ED5}|ClientAPI\\Client.WebApi.csproj|solutionrelative:clientapi\\repository\\interface\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFDCAA22-3386-4BE4-8B94-D037AFE892E3}|ProductAPI\\Product.WebApi.csproj|f:\\douglas\\estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDCAA22-3386-4BE4-8B94-D037AFE892E3}|ProductAPI\\Product.WebApi.csproj|solutionrelative:productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBD64403-56E9-42A8-B2BF-2AE35D202ED5}|ClientAPI\\Client.WebApi.csproj|f:\\douglas\\estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\clientapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FBD64403-56E9-42A8-B2BF-2AE35D202ED5}|ClientAPI\\Client.WebApi.csproj|solutionrelative:clientapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{BFDCAA22-3386-4BE4-8B94-D037AFE892E3}|ProductAPI\\Product.WebApi.csproj|f:\\douglas\\estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\productapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDCAA22-3386-4BE4-8B94-D037AFE892E3}|ProductAPI\\Product.WebApi.csproj|solutionrelative:productapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBD64403-56E9-42A8-B2BF-2AE35D202ED5}|ClientAPI\\Client.WebApi.csproj|f:\\douglas\\estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\clientapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{FBD64403-56E9-42A8-B2BF-2AE35D202ED5}|ClientAPI\\Client.WebApi.csproj|solutionrelative:clientapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{BFDCAA22-3386-4BE4-8B94-D037AFE892E3}|ProductAPI\\Product.WebApi.csproj|f:\\douglas\\estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\productapi\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDCAA22-3386-4BE4-8B94-D037AFE892E3}|ProductAPI\\Product.WebApi.csproj|solutionrelative:productapi\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,67 +38,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ClientsController.cs",
-              "DocumentMoniker": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\ClientAPI\\Controllers\\ClientsController.cs",
-              "RelativeDocumentMoniker": "ClientAPI\\Controllers\\ClientsController.cs",
-              "ToolTip": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\ClientAPI\\Controllers\\ClientsController.cs",
-              "RelativeToolTip": "ClientAPI\\Controllers\\ClientsController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAIwFEAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T06:01:53.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ClientRepository.cs",
-              "DocumentMoniker": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\ClientAPI\\Repository\\ClientRepository.cs",
-              "RelativeDocumentMoniker": "ClientAPI\\Repository\\ClientRepository.cs",
-              "ToolTip": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\ClientAPI\\Repository\\ClientRepository.cs",
-              "RelativeToolTip": "ClientAPI\\Repository\\ClientRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T06:01:49.333Z",
+              "Title": ".gitignore",
+              "DocumentMoniker": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-08-31T06:56:33.527Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IClientRepository.cs",
-              "DocumentMoniker": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\ClientAPI\\Repository\\Interface\\IClientRepository.cs",
-              "RelativeDocumentMoniker": "ClientAPI\\Repository\\Interface\\IClientRepository.cs",
-              "ToolTip": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\ClientAPI\\Repository\\Interface\\IClientRepository.cs",
-              "RelativeToolTip": "ClientAPI\\Repository\\Interface\\IClientRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\ProductAPI\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "ProductAPI\\Repository\\ProductRepository.cs",
+              "ToolTip": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\ProductAPI\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "ProductAPI\\Repository\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T06:01:47.465Z",
+              "WhenOpened": "2025-08-31T06:51:27.514Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\ClientAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "ClientAPI\\appsettings.json",
-              "ToolTip": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\ClientAPI\\appsettings.json",
-              "RelativeToolTip": "ClientAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-31T05:59:44.745Z",
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\ProductAPI\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "ProductAPI\\Controllers\\ProductsController.cs",
+              "ToolTip": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\ProductAPI\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "ProductAPI\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T06:46:03.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\ProductAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ProductAPI\\Program.cs",
+              "ToolTip": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\ProductAPI\\Program.cs",
+              "RelativeToolTip": "ProductAPI\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T06:45:44.382Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\ClientAPI\\Dockerfile",
-              "RelativeDocumentMoniker": "ClientAPI\\Dockerfile",
-              "ToolTip": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\ClientAPI\\Dockerfile",
-              "RelativeToolTip": "ClientAPI\\Dockerfile",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAgwBwAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-08-31T05:58:09.772Z",
+              "Title": "Product.cs",
+              "DocumentMoniker": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\ProductAPI\\Model\\Product.cs",
+              "RelativeDocumentMoniker": "ProductAPI\\Model\\Product.cs",
+              "ToolTip": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\ProductAPI\\Model\\Product.cs",
+              "RelativeToolTip": "ProductAPI\\Model\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T06:43:47.83Z",
               "EditorCaption": ""
             }
           ]

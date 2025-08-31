@@ -20,12 +20,6 @@ builder.Services.AddScoped<IClientRepository, ClientRepository>();
 
 var app = builder.Build();
 
-using (var scope = app.Services.CreateScope())
-{
-    var context = scope.ServiceProvider.GetRequiredService<SqlContext>();
-    context.Database.Migrate();
-}
-
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
