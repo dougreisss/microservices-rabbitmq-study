@@ -1,4 +1,4 @@
-﻿namespace PaymentConsumer.Model
+﻿namespace NotificationConsumer.Model
 {
     public class Order
     {

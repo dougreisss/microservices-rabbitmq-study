@@ -3,7 +3,7 @@ using PaymentConsumer.Services.Interfaces;
 using PaymentWorker;
 
 var builder = Host.CreateApplicationBuilder(args);
-builder.Services.AddHostedService<Worker>();
+builder.Services.AddHostedService<PaymentConsumerWorker>();
 
 builder.Services.AddScoped<IPaymentService, PaymentService>();
 

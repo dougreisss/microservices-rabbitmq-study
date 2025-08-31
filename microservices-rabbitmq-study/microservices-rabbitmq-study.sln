@@ -18,9 +18,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{380A75
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workers", "Workers", "{F8EC1065-C7CB-4770-B96C-8B5FA50B040D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationConsumer", "NotificationWorker\NotificationConsumer.csproj", "{FF04181E-B487-3F9D-CE6A-DC4DB47A6192}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationWorker", "NotificationWorker\NotificationWorker.csproj", "{FF04181E-B487-3F9D-CE6A-DC4DB47A6192}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentConsumer", "PaymentWorker\PaymentConsumer.csproj", "{532FE0AD-08A7-D9F7-4DB3-06430915582E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentWorker", "PaymentWorker\PaymentWorker.csproj", "{532FE0AD-08A7-D9F7-4DB3-06430915582E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

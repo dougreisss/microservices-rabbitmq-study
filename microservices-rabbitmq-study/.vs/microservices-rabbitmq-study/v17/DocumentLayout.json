@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DE124D39-2026-4B88-BD67-8CBDF940FCBB}|OrderApi\\Order.WebApi.csproj|f:\\douglas\\estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\orderapi\\services\\ordersenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE124D39-2026-4B88-BD67-8CBDF940FCBB}|OrderApi\\Order.WebApi.csproj|solutionrelative:orderapi\\services\\ordersenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF04181E-B487-3F9D-CE6A-DC4DB47A6192}|NotificationWorker\\NotificationWorker.csproj|f:\\douglas\\estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\notificationworker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF04181E-B487-3F9D-CE6A-DC4DB47A6192}|NotificationWorker\\NotificationWorker.csproj|solutionrelative:notificationworker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE124D39-2026-4B88-BD67-8CBDF940FCBB}|OrderApi\\Order.WebApi.csproj|f:\\douglas\\estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\orderapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE124D39-2026-4B88-BD67-8CBDF940FCBB}|OrderApi\\Order.WebApi.csproj|solutionrelative:orderapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{532FE0AD-08A7-D9F7-4DB3-06430915582E}|PaymentWorker\\PaymentWorker.csproj|f:\\douglas\\estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\paymentworker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{532FE0AD-08A7-D9F7-4DB3-06430915582E}|PaymentWorker\\PaymentWorker.csproj|solutionrelative:paymentworker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE124D39-2026-4B88-BD67-8CBDF940FCBB}|OrderApi\\Order.WebApi.csproj|f:\\douglas\\estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\orderapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE124D39-2026-4B88-BD67-8CBDF940FCBB}|OrderApi\\Order.WebApi.csproj|solutionrelative:orderapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{532FE0AD-08A7-D9F7-4DB3-06430915582E}|PaymentWorker\\PaymentWorker.csproj|f:\\douglas\\estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\paymentworker\\paymentconsumerworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{532FE0AD-08A7-D9F7-4DB3-06430915582E}|PaymentWorker\\PaymentWorker.csproj|solutionrelative:paymentworker\\paymentconsumerworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE124D39-2026-4B88-BD67-8CBDF940FCBB}|OrderApi\\Order.WebApi.csproj|f:\\douglas\\estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\orderapi\\services\\interface\\iordersenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE124D39-2026-4B88-BD67-8CBDF940FCBB}|OrderApi\\Order.WebApi.csproj|solutionrelative:orderapi\\services\\interface\\iordersenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{532FE0AD-08A7-D9F7-4DB3-06430915582E}|PaymentWorker\\PaymentWorker.csproj|f:\\douglas\\estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\paymentworker\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{532FE0AD-08A7-D9F7-4DB3-06430915582E}|PaymentWorker\\PaymentWorker.csproj|solutionrelative:paymentworker\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF04181E-B487-3F9D-CE6A-DC4DB47A6192}|NotificationWorker\\NotificationWorker.csproj|f:\\douglas\\estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\notificationworker\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FF04181E-B487-3F9D-CE6A-DC4DB47A6192}|NotificationWorker\\NotificationWorker.csproj|solutionrelative:notificationworker\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF04181E-B487-3F9D-CE6A-DC4DB47A6192}|NotificationWorker\\NotificationWorker.csproj|f:\\douglas\\estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\notificationworker\\notificationconsumerworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF04181E-B487-3F9D-CE6A-DC4DB47A6192}|NotificationWorker\\NotificationWorker.csproj|solutionrelative:notificationworker\\notificationconsumerworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF04181E-B487-3F9D-CE6A-DC4DB47A6192}|NotificationWorker\\NotificationWorker.csproj|f:\\douglas\\estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\notificationworker\\model\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF04181E-B487-3F9D-CE6A-DC4DB47A6192}|NotificationWorker\\NotificationWorker.csproj|solutionrelative:notificationworker\\model\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF04181E-B487-3F9D-CE6A-DC4DB47A6192}|NotificationWorker\\NotificationWorker.csproj|f:\\douglas\\estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\notificationworker\\model\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF04181E-B487-3F9D-CE6A-DC4DB47A6192}|NotificationWorker\\NotificationWorker.csproj|solutionrelative:notificationworker\\model\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF04181E-B487-3F9D-CE6A-DC4DB47A6192}|NotificationWorker\\NotificationWorker.csproj|f:\\douglas\\estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\notificationworker\\services\\interfaces\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF04181E-B487-3F9D-CE6A-DC4DB47A6192}|NotificationWorker\\NotificationWorker.csproj|solutionrelative:notificationworker\\services\\interfaces\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF04181E-B487-3F9D-CE6A-DC4DB47A6192}|NotificationWorker\\NotificationWorker.csproj|f:\\douglas\\estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\notificationworker\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF04181E-B487-3F9D-CE6A-DC4DB47A6192}|NotificationWorker\\NotificationWorker.csproj|solutionrelative:notificationworker\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,54 +58,132 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\OrderApi\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "OrderApi\\Controllers\\OrdersController.cs",
-              "ToolTip": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\OrderApi\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "OrderApi\\Controllers\\OrdersController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAwwEMAAAAvAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\NotificationWorker\\Program.cs",
+              "RelativeDocumentMoniker": "NotificationWorker\\Program.cs",
+              "ToolTip": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\NotificationWorker\\Program.cs",
+              "RelativeToolTip": "NotificationWorker\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T18:57:03.532Z",
+              "WhenOpened": "2025-08-31T21:01:27.135Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\OrderApi\\Program.cs",
-              "RelativeDocumentMoniker": "OrderApi\\Program.cs",
-              "ToolTip": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\OrderApi\\Program.cs",
-              "RelativeToolTip": "OrderApi\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAowBkAAABGAAAAAAAAAA==",
+              "Title": "PaymentConsumerWorker.cs",
+              "DocumentMoniker": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\PaymentWorker\\PaymentConsumerWorker.cs",
+              "RelativeDocumentMoniker": "PaymentWorker\\PaymentConsumerWorker.cs",
+              "ToolTip": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\PaymentWorker\\PaymentConsumerWorker.cs",
+              "RelativeToolTip": "PaymentWorker\\PaymentConsumerWorker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T18:41:07.796Z",
+              "WhenOpened": "2025-08-31T21:00:33.877Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OrderSenderService.cs",
-              "DocumentMoniker": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\OrderApi\\Services\\OrderSenderService.cs",
-              "RelativeDocumentMoniker": "OrderApi\\Services\\OrderSenderService.cs",
-              "ToolTip": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\OrderApi\\Services\\OrderSenderService.cs",
-              "RelativeToolTip": "OrderApi\\Services\\OrderSenderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBkAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\PaymentWorker\\Program.cs",
+              "RelativeDocumentMoniker": "PaymentWorker\\Program.cs",
+              "ToolTip": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\PaymentWorker\\Program.cs",
+              "RelativeToolTip": "PaymentWorker\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T18:40:41.552Z",
+              "WhenOpened": "2025-08-31T21:00:25.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\NotificationWorker\\Dockerfile",
+              "RelativeDocumentMoniker": "NotificationWorker\\Dockerfile",
+              "ToolTip": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\NotificationWorker\\Dockerfile",
+              "RelativeToolTip": "NotificationWorker\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-31T20:59:11.182Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IOrderSenderService.cs",
-              "DocumentMoniker": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\OrderApi\\Services\\Interface\\IOrderSenderService.cs",
-              "RelativeDocumentMoniker": "OrderApi\\Services\\Interface\\IOrderSenderService.cs",
-              "ToolTip": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\OrderApi\\Services\\Interface\\IOrderSenderService.cs",
-              "RelativeToolTip": "OrderApi\\Services\\Interface\\IOrderSenderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Title": "Dockerfile",
+              "DocumentMoniker": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\PaymentWorker\\Dockerfile",
+              "RelativeDocumentMoniker": "PaymentWorker\\Dockerfile",
+              "ToolTip": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\PaymentWorker\\Dockerfile",
+              "RelativeToolTip": "PaymentWorker\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-31T20:59:03.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\NotificationWorker\\Services\\NotificationService.cs",
+              "RelativeDocumentMoniker": "NotificationWorker\\Services\\NotificationService.cs",
+              "ToolTip": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\NotificationWorker\\Services\\NotificationService.cs",
+              "RelativeToolTip": "NotificationWorker\\Services\\NotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T18:40:33.402Z",
+              "WhenOpened": "2025-08-31T20:47:36.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "INotificationService.cs",
+              "DocumentMoniker": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\NotificationWorker\\Services\\Interfaces\\INotificationService.cs",
+              "RelativeDocumentMoniker": "NotificationWorker\\Services\\Interfaces\\INotificationService.cs",
+              "ToolTip": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\NotificationWorker\\Services\\Interfaces\\INotificationService.cs",
+              "RelativeToolTip": "NotificationWorker\\Services\\Interfaces\\INotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T20:47:29.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\NotificationWorker\\Model\\Notification.cs",
+              "RelativeDocumentMoniker": "NotificationWorker\\Model\\Notification.cs",
+              "ToolTip": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\NotificationWorker\\Model\\Notification.cs",
+              "RelativeToolTip": "NotificationWorker\\Model\\Notification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T20:46:06.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Client.cs",
+              "DocumentMoniker": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\NotificationWorker\\Model\\Client.cs",
+              "RelativeDocumentMoniker": "NotificationWorker\\Model\\Client.cs",
+              "ToolTip": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\NotificationWorker\\Model\\Client.cs",
+              "RelativeToolTip": "NotificationWorker\\Model\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T20:44:45.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NotificationConsumerWorker.cs",
+              "DocumentMoniker": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\NotificationWorker\\NotificationConsumerWorker.cs",
+              "RelativeDocumentMoniker": "NotificationWorker\\NotificationConsumerWorker.cs",
+              "ToolTip": "F:\\Douglas\\Estudo\\microservices-rabbitmq-study\\microservices-rabbitmq-study\\NotificationWorker\\NotificationConsumerWorker.cs*",
+              "RelativeToolTip": "NotificationWorker\\NotificationConsumerWorker.cs*",
+              "ViewState": "AgIAABYAAAAAAAAAAAAowC0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T20:44:14.952Z",
               "EditorCaption": ""
             }
           ]

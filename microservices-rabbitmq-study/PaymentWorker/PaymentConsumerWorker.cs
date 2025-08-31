@@ -8,12 +8,12 @@ using RabbitMQ.Client.Events;
 
 namespace PaymentWorker
 {
-    public class Worker : BackgroundService
+    public class PaymentConsumerWorker : BackgroundService
     {
-        private readonly ILogger<Worker> _logger;
+        private readonly ILogger<PaymentConsumerWorker> _logger;
         private readonly IPaymentService _paymentService;
 
-        public Worker(ILogger<Worker> logger, IPaymentService paymentService)
+        public PaymentConsumerWorker(ILogger<PaymentConsumerWorker> logger, IPaymentService paymentService)
         {
             _logger = logger;
             _paymentService = paymentService;
@@ -23,7 +23,7 @@ namespace PaymentWorker
         {
             _logger.LogInformation("Payment Worker running at: {time}", DateTimeOffset.Now);
 
-            IChannel channel = await CreateConnection(stoppingToken);
+            IChannel channel = await CreateConnectionAsync(stoppingToken);
 
             await channel.QueueDeclareAsync(queue: "orders", durable: true, exclusive: false,
                 autoDelete: false, arguments: null);
@@ -45,8 +45,8 @@ namespace PaymentWorker
 
                 if (_paymentService.ExecutePayment(order))
                 {
-                    // todo
-                    // publish notification message
+                    // publish payment approved message
+                    await PaymentSenderAsync(order, stoppingToken);
 
                     // here channel could also be accessed as ((AsyncEventingBasicConsumer)sender).Channel
                     await channel.BasicAckAsync(deliveryTag: ea.DeliveryTag, multiple: false);
@@ -62,7 +62,7 @@ namespace PaymentWorker
             await Task.Delay(Timeout.Infinite, stoppingToken);
         }
 
-        private async Task<IChannel> CreateConnection(CancellationToken stoppingToken)
+        private async Task<IChannel> CreateConnectionAsync(CancellationToken stoppingToken)
         {
             IConnection connection = null!;
             IChannel channel = null!;
@@ -92,6 +92,29 @@ namespace PaymentWorker
             }
 
             return channel;
+        }
+
+        private async Task PaymentSenderAsync(Order order, CancellationToken stoppingToken)
+        {
+            string queue = "approved_payments";
+
+            IChannel channel = await CreateConnectionAsync(stoppingToken);
+
+            await channel.QueueDeclareAsync(
+               queue: queue,
+               durable: true,
+               exclusive: false,
+               autoDelete: false,
+               arguments: null);
+
+            string orderJson = JsonConvert.SerializeObject(order);
+
+            var body = Encoding.UTF8.GetBytes(orderJson);
+
+            await channel.BasicPublishAsync(exchange: string.Empty, routingKey: queue, body: body);
+
+            _logger.LogInformation("Payment Worker - Sended message in {queue} queue - running at: {time}", queue, DateTimeOffset.Now);
+
         }
     }
 }

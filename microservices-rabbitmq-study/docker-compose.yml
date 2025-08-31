@@ -52,6 +52,13 @@ services:
             dockerfile: PaymentWorker/Dockerfile
         depends_on:
             - rabbitmq
+    notification.worker:
+        container_name: notification.worker
+        build:
+            context: .
+            dockerfile: NotificationWorker/Dockerfile
+        depends_on:
+            - rabbitmq
     db:
         container_name: db
         image: mcr.microsoft.com/mssql/server:2022-latest
