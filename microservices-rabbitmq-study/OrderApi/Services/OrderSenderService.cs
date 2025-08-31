@@ -31,7 +31,7 @@ namespace Order.WebApi.Services
 
             await channel.QueueDeclareAsync(
                 queue: queue, 
-                durable: false,
+                durable: true,
                 exclusive: false, 
                 autoDelete: false, 
                 arguments: null);

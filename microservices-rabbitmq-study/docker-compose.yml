@@ -38,9 +38,20 @@ services:
             - ASPNETCORE_ENVIRONMENT=Development
             - ASPNETCORE_URLS=http://+:80
             - ConnectionStrings:OrderDb=Server=db;Database=order.db;User=sa;Password=root@1234;Encrypt=False;
+            - OrderSenderConfig:Hostname=rabbitmq
+            - OrderSenderConfig:Username=guest
+            - OrderSenderConfig:Password=guest
+            - OrderSenderConfig:Queue=orders
         depends_on:
             - db
-            - rabbiqmq
+            - rabbitmq
+    payment.worker:
+        container_name: payment.worker
+        build:
+            context: .
+            dockerfile: PaymentWorker/Dockerfile
+        depends_on:
+            - rabbitmq
     db:
         container_name: db
         image: mcr.microsoft.com/mssql/server:2022-latest
@@ -52,7 +63,7 @@ services:
         volumes:
             - sqlserverdata:/var/opt/mssql
 
-    rabbiqmq:
+    rabbitmq:
         image: rabbitmq:3-management
         ports:
             - "5672:5672"
